@@ -1,0 +1,67 @@
+/* Login.css */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #FFFC00; /* Snapchat yellow background color for the entire page */
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 80%; /* Increase the width as needed */
+  max-width: 600px; /* Set a max-width for responsiveness */
+  margin: auto; /* Center the container */
+  height: 100vh; /* Set to 100% of the viewport height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFFC00; /* Set background color to Snapchat yellow */
+}
+
+.title {
+  text-align: center;
+  color: #000; /* Set text color to black */
+}
+
+.form-container {
+  width: 100%; /* Set the width to 100% to fill the container */
+  padding: 40px; /* Increase the padding for a larger container */
+  background-color: #fff; /* Set background color to white */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.input-form {
+  width: calc(100% - 30px); /* Increase the width of the inputs */
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+  background-color: #fff;
+  color: #000; /* Set text color to black */
+}
+
+.btn-connexion {
+  width: 100%;
+  padding: 15px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.btn-connexion:hover {
+  background-color: #2980b9;
+}
+
+.register-link {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #3498db;
+}

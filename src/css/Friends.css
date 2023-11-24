@@ -1,0 +1,88 @@
+/* Friends.css */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFFC00; /* Snapchat yellow background color for the entire page */
+    color: #000; /* Set text color to black */
+    font-family: Arial, sans-serif;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    background-color: #3498db; /* Blue color for the navbar */
+    text-align: center;
+  }
+  
+  li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+  }
+  
+  .container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 28px;
+  }
+  
+  .addFriend {
+    text-decoration: none;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    display: inline-block;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  td {
+    background-color: #fff;
+    color: #000; /* Set text color to black */
+    transition: background-color 0.3s ease;
+  }
+  
+  tr:hover td {
+    background-color: #f2f2f2; /* Change background color on hover */
+  }
+  
+  .btn-cancel {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn-cancel:hover {
+    background-color: #c0392b;
+  }
+  

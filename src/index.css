@@ -1,13 +1,246 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(191, 84, 84);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.map {
+  margin: 0;
+  /* align-items: center; */
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.map-container {
+  /* Faire en sorte que la carte occupe 100% de la largeur de l'écran */
+  width: 100vw;
+
+  /* Faire en sorte que la carte occupe 100% de la hauteur de l'écran */
+  height: 100vh;
+
+  /* La position relative permet d'ancrer les enfants en position absolue par rapport à ce conteneur */
+  position: relative;
+}
+
+.container {
+  margin: 0px auto;
+  margin-top: 10%;
+  margin-bottom: 50px;
+  width: 90%;
+  max-width: 600px;
+}
+
+.input-form {
+  background-color: #02131c;
+  margin-top: 25px;
+  font-size: 16px;
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  width: 90%;
+  max-width: 500px;
+  color: #fff;
+}
+
+.btn {
+  margin-top: 10px;
+  padding: 15px;
+  width: 87%;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.btn-connexion {
+  background-color: #1C90F4;
+}
+
+.btn-connexion:hover {
+  color: black;
+  background-color: rgb(34, 27, 79);
+}
+
+.btn-cancel {
+  background-color: #fff;
+  color: black;
+}
+
+.btn-cancel:hover {
+  background-color: rgb(34, 27, 79);
+  color: white;
+}
+
+.input-error {
+  color: red;
+}
+
+.input-success {
+  color: rgb(60, 174, 60);
+}
+
+.title {
+  text-align: center;
+  color: #fff;
+}
+
+.register-link {
+  color: #ffff;
+  margin-top: 10px;
+  margin-left: 450px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.register-link:hover {
+  color: black;
+  background-color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+table {
+  position: relative;
+  width: 80%;
+  color: white;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 16px;
+  text-align: left;
+}
+
+th,
+td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #000000;
+}
+
+tr:hover {
+  background-color: #000000;
+}
+
+.fa-solid .fa-pencil {
+  color: red;
+}
+
+td .link {
+  color: #F5F5F5;
+  text-decoration: none;
+  font-size: 35px;
+}
+
+td .link:hover {
+  color: black;
+  background-color: white;
+  padding: 2px;
+  border: none;
+  border-radius: 10px;
+}
+
+.container {
+  margin: 0px auto;
+  margin-top: 10%;
+  margin-bottom: 50px;
+  width: 90%;
+  max-width: 600px;
+}
+
+.card {
+  background-color: #03141D;
+  margin: 20px auto;
+  padding: 10px;
+  border-radius: 10px;
+  list-style: none;
+  text-decoration: none;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.card-title {
+  color: #F5F5F5;
+  text-decoration: none;
+  font-size: 35px;
+}
+
+.card-text {
+  color: #F5F5F5;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.btn-back {
+  color: black;
+}
+
+.btn-back:hover {
+  color: white;
+  background-color: black;
+}
+
+.form {
+  align-items: center;
+  text-align: center;
+}
+
+.bntPlay {
+  border: none;
+  color: #fff;
+  padding: 10px;
+  background-color: red;
+  font-size: 25px;
+  border-radius: 15px;
+}
+
+.bntPlay:hover {
+  background-color: #000000;
+
+}
+
+ul {
+  list-style-type: none;
+  align-items: center;
+  display: flex;
+  background-color: white;
+  width: 100%;
+
+}
+
+
+li .a {
+  width: 60px;
+  margin-left: 300px;
+  margin-top: 10px;
+  padding-bottom: 0px;
+
+}
+
+.a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+a:hover {
+  color: white;
+  background-color: black;
+}
+
+.addFriend {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.addFriend:hover {
+  background-color: whitesmoke;
+  color: black;
 }
